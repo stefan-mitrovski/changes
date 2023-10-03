@@ -1,0 +1,17 @@
+.body{
+margin: 0;
+}
+.parent{
+background-color: blue;
+height: 400px;
+width: 400px;
+}
+.children{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    transition: all 1s;
+}
+.paren:hover .children{
+transform: translateX(100%);
+}
